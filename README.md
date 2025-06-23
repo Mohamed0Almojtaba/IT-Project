@@ -1,16 +1,24 @@
-This project is a Cisco Packet Tracer simulation that connects two company branches through proper routing, VLANs, and subnetting. Both branches are fully networked and connected to the internet, with secure internal communication between departments.
+This project is a complete network simulation built using Cisco Packet Tracer. It models two company branches connected through routing, VLANs, and subnetting. Both branches have full internet access and internal communication, and the setup includes a mix of traditional and smart devices.
 
-Key features include:
+🔧 Main Features:
+Two Branches
+Each branch is connected using routing (static or dynamic), allowing seamless communication between them.
 
-Two Interconnected Branches: Linked using static or dynamic routing to enable communication between sites.
+VLANs & Subnetting
+VLANs are set up to separate departments (e.g., HR, IT, Sales), combined with subnetting to manage IP space efficiently.
 
-VLAN Configuration: Implemented to separate departments within each branch (e.g., HR, Admin, IT) for better traffic management and security.
+Internet Connectivity
+Both sites connect to a simulated ISP for global access.
 
-IP Subnetting: Proper subnetting ensures efficient IP address usage across the network.
+VoIP Integration
+IP phones are configured with a working VoIP setup, including a call manager for internal communication.
 
-Internet Access: Both branches are connected to a simulated ISP to provide internet access to all devices.
+Multiple Switches & Devices
+Each branch includes multiple switches to manage traffic and support device scalability.
 
-IoT Integration (Branch 1): Smart appliances such as lights, fans, and sensors are controlled through an IoT server, simulating smart office automation.
+Printers & Office Equipment
+Networked printers are accessible across departments.
 
-This project demonstrates core networking skills including topology design, routing configuration, VLAN setup, subnet planning, and IoT device integration.
+IoT Devices in Branch 1
+Smart appliances (lights, fans, sensors) controlled via an IoT server demonstrate modern smart office integration.
 
